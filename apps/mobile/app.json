@@ -14,10 +14,15 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.tsumugu.app"
+      "bundleIdentifier": "com.tsumugu.app",
+      "newArchEnabled": true
     },
     "android": {
       "package": "com.tsumugu.app",
+      "newArchEnabled": true,
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35,
+      "buildToolsVersion": "35.0.0",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#F9F8F4"
@@ -30,6 +35,11 @@
     },
     "plugins": [
       "expo-dev-client"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "24480408-ca1e-4740-91bf-b44b400d7ed6"
+      }
+    }
   }
 }
