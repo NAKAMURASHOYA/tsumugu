@@ -10,7 +10,7 @@
       "env": {
         "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       },
-      "node": ">=22.0.0"
+      "node": ">=20.19.4"
     },
     "preview": {
       "distribution": "internal"
